@@ -1,2 +1,2 @@
 #!/bin/bash
-cut 3 /etc/passwd /.
+cut 3 iacta/. 
