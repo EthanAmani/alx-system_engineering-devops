@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "^[a-zA_-Z]" /etc/ssh/sshd_config
+cat /etc/ssh/ssh_config | awk '{if(NR%2==1) print $0}'
